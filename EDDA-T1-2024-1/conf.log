@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.13)  15 OCT 2023 23:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.13)  18 OCT 2023 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -215,22 +215,42 @@ Package babel Info: Making > an active character on input line 722.
 )) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
+) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+ (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count277
+\c@ALG@rem=\count278
+\c@ALG@nested=\count279
+\ALG@tlm=\skip51
+\ALG@thistlm=\skip52
+\c@ALG@Lnr=\count280
+\c@ALG@blocknr=\count281
+\c@ALG@storecount=\count282
+\c@ALG@tmpcounter=\count283
+\ALG@tmplength=\skip53
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
 ) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box51
-\beforetitleunit=\skip60
-\aftertitleunit=\skip61
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
 \ttl@plus=\dimen156
 \ttl@minus=\dimen157
 \ttl@toksa=\toks21
@@ -238,22 +258,22 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen159
 \titlewidthfirst=\dimen160
 ) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count277
+\lst@mode=\count284
 \lst@gtempboxa=\box52
 \lst@token=\toks22
-\lst@length=\count278
+\lst@length=\count285
 \lst@currlwidth=\dimen161
-\lst@column=\count279
-\lst@pos=\count280
+\lst@column=\count286
+\lst@pos=\count287
 \lst@lostspace=\dimen162
 \lst@width=\dimen163
-\lst@newlines=\count281
-\lst@lineno=\count282
+\lst@newlines=\count288
+\lst@lineno=\count289
 \lst@maxwidth=\dimen164
  (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count283
-\lst@skipnumbers=\count284
+\c@lstnumber=\count290
+\lst@skipnumbers=\count291
 \lst@framebox=\box53
 ) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -263,7 +283,7 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
+\l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box54
 ) (conf.aux
 LaTeX Info: Redefining \. on input line 22.
@@ -271,24 +291,24 @@ LaTeX Info: Redefining \% on input line 22.
 )
 \openout1 = `conf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -326,16 +346,16 @@ LaTeX Font Info:    ... okay on input line 45.
 
 (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
+\scratchcounter=\count293
 \scratchdimen=\dimen165
 \scratchbox=\box55
-\nofMPsegments=\count287
-\nofMParguments=\count288
+\nofMPsegments=\count294
+\nofMParguments=\count295
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count289
+\MPscratchCnt=\count296
 \MPscratchDim=\dimen166
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
 \everyMPtoPDFconversion=\toks24
 ) (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -343,14 +363,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\nataa\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 47.
  (conf.out) (conf.out)
 \@outlinefile=\write3
 \openout3 = `conf.out'.
 
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
-\c@lstlisting=\count292
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+\c@lstlisting=\count299
  (portada.tex [1
 
 {C:/Users/nataa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (p1.tex
@@ -375,18 +395,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.1 \section*{Pregunta 2}
-                          [1 <./t1-1.jpg> <./t1-2.jpg>]) (p3.tex) (p4.tex) (p5.tex [2]) (p6.tex
-<escalera1.png, id=36, 433.62pt x 182.6825pt>
+                          [1 <./t1-1.jpg> <./t1-2.jpg>]
+Overfull \hbox (0.1261pt too wide) in paragraph at lines 6--8
+\T1/cmr/m/n/12 cia-do. En-ton-ces $\OML/cmm/m/it/12 G$ \T1/cmr/m/n/12 y $\OML/cmm/m/it/12 G[]$ \T1/cmr/m/n/12 son ár-bo-les aso-cia-dos a $\OML/cmm/m/it/12 T$\T1/cmr/m/n/12 , en-ton-ces $\OML/cmm/m/it/12 V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 T \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x[]; x[]; [] ; x[]\OMS/cmsy/m/n/12 g$\T1/cmr/m/n/12 ,
+ []
+
+<t1-3.jpg, id=27, 81.30376pt x 47.17625pt>
+File: t1-3.jpg Graphic file (type jpg)
+<use t1-3.jpg>
+Package pdftex.def Info: t1-3.jpg  used on input line 11.
+(pdftex.def)             Requested size: 98.28552pt x 57.03445pt.
+) (p3.tex [2 <./t1-3.jpg>] [3]) (p4.tex) (p5.tex) (p6.tex
+<escalera1.png, id=44, 433.62pt x 182.6825pt>
 File: escalera1.png Graphic file (type png)
 <use escalera1.png>
 Package pdftex.def Info: escalera1.png  used on input line 4.
 (pdftex.def)             Requested size: 216.80946pt x 91.34102pt.
-<escalera2.png, id=37, 438.63875pt x 187.70125pt>
+ [4 <./escalera1.png>]
+<escalera2.png, id=51, 438.63875pt x 187.70125pt>
 File: escalera2.png Graphic file (type png)
 <use escalera2.png>
 Package pdftex.def Info: escalera2.png  used on input line 14.
 (pdftex.def)             Requested size: 219.31883pt x 93.85039pt.
-) (p7.tex [3 <./escalera1.png> <./escalera2.png>]) (p8.tex) (p9.tex) (p10.tex [4]) [5] (conf.aux
+) (p7.tex) (p8.tex) (p9.tex [5 <./escalera2.png>]) (p10.tex) [6] (conf.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
@@ -394,17 +425,17 @@ Package rerunfilecheck Info: File `conf.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12691 strings out of 476331
- 199456 string characters out of 5787765
- 1857660 words of memory out of 5000000
- 32924 multiletter control sequences out of 15000+600000
- 526241 words of font info for 56 fonts, out of 8000000 for 9000
+ 13284 strings out of 476331
+ 208924 string characters out of 5787765
+ 1865660 words of memory out of 5000000
+ 33502 multiletter control sequences out of 15000+600000
+ 527004 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,542b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2074.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on conf.pdf (6 pages, 202229 bytes).
+ 75i,11n,76p,542b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2074.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\nataa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nataa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on conf.pdf (7 pages, 221371 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

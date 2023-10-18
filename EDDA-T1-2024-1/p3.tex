@@ -6,6 +6,79 @@
 \end{enumerate}
 
 \subsection*{Respuesta}
-<Tu respuesta aquí>
+\begin{enumerate}
+   \item Prueba que hacer una consulta así en un árbol $KD$ toma tiempo $O(\log n)$.
+   
+   El algoritmo de busqueda para el kd-tree es
+   
+   \begin{algorithmic}[1]
+      \State Si $v$ es una hoja
+         \State Regresa si $v$ esta en $R$
+      
+      \State De otra manera:
+      \State Si la región $lc(v)$ (del hijo izquierdo de $v$) está contenida en $R$ entonces: 
+               recorrer el subárbol izquierdo de $V$ y regresa los puntos almacenados.
 
+      \State De otra manera:
+      \State Si la región $lc(v)$ intersecta $R$ entonces: 
+               busca en el subarbol $lc(v)$ en $R$
+      \State Si la región $rc(v)$ esta contenida en $R$ entonces:
+               recorrer el subarbol derecho de $v$ y regresa los puntos almacenados
+
+      \State De otra manera:
+      \State Si la región $rv(v)$ intersecta $R$ entonces:
+               busca en el subarbol $rc$ en $R$
+       
+      \end{algorithmic}
+      De forma que para la consulta del punto $(a,b)$ el algoritmo verifica en que subarbol esta por 4 y 7 y desciende por 5 u 8 sobre el subarbol izquierdo o derecho respectivamente, hasta llegar a una hoja. De manera que recorre la altura del árbol para hallar el punto una vez y como la altura del árbol es $\log n$. Toma $O(\log n)$ hacer una consulta de un punto particular $(a,b)$ al rango $[a:a] \times [b:b]$ en un árbol $KD$ 
+  
+      \item ¿Cuál es la complejidad para una consulta así en un árbol de rangos?
+      
+      El algoritmo de busqueda para el árboles de rango requiere de dos rutinas:
+
+      EncuentraNodoDivisor$(\tau,x,x')$:
+      \begin{algorithmic}[1]
+         \State $v \gets raiz(T)$
+
+         \While{$v$ no es una hoja y $x' \leq x_v$ o $x > x_v$}
+
+
+         \If{$x'\leq x_v$}
+            \State $v \gets lc(v)$
+            \Else 
+            \State $v \gets rc(v)$
+         \EndIf
+         \EndWhile
+         \end{algorithmic}
+
+      Algoritmo2DRangeQuery($\tau, [x:x']\times [y:y']$)
+      
+      \begin{algorithmic}[1]
+         \State $v_x \gets$ EcuentraNodoDivisor$(\tau,x,x')$
+
+
+         \If{$v_s$ es una hoja}
+            \State Verifica si el punto en $v_s$ debe ser reportado.
+            \Else 
+            \State Sigue el camino a $x$ y realiza la busqueda en una 1 dimension en los subarboles derechos del camino.
+            \State $v \gets lc(v_s)$
+
+            \While{$v$ no es una hoja}
+               \If{$x \leq x_v$}
+               \State Realiza una busqueda de una dimension sobre $\tau_{assoc} (rc(v)),[y:y']$
+
+               \State $v\gets lr(v)$
+               \Else
+               \State $v \gets rc(v)$ 
+               \EndIf
+            \EndWhile
+            \State Verifica si el punto debe ser reportado
+            \State De forma similar sigue el camino de $rc(v_s)$ a $x'$, haz la busqueda en una dimension sobre $[y:y']$ en las estructuras asociadas de los subarboles deñ camino y verifica si el punto almacenado en la hoja donde el camino termina debe ser reportado.
+         \EndIf
+      \end{algorithmic}
+      Entonces en la consulta de un punto $(a,b)$ en $[a:a]\times[b:b]$ por 1 busca el nodo divisor que contiene a $a$ lo que toma $O(\log n)$ (la altura del árbol principal), si el nodo que contiene $a$ es una hoja entonces lo regresa. Si no es una hoja entonces realiza una busqueda sobre $\tau_{assoc}$ (estructura asociada) en el rango $[y:y']$ lo que toma $O(k)$ donde $k=1$ porque en el rango solo hay un punto.
+
+      Por tanto la consulta de un punto $(a,b)$ en $[a:a]\times[b:b]$ es $O(\log n + 1) \rightarrow O(\log n)$
+
+\end{enumerate}
 \bigskip
