@@ -6,6 +6,7 @@
   ¿Cuál es el tiempo de pre-procesamiento?
 
 \subsection*{Respuesta}
-<Tu respuesta aquí>
+La mejor estructura para resolver este problema es el Interval tree ya que almacena intervalos en sus nodos. Su complejidad en espacio es $O(n)$ ya que a lo más por cada intervalo formado por $n$ segmentos se crearan dos nodos en el Interval tree. Construimos el árbol de intervalos dividiendo cada $n$ segmento por la mitad recursivamente almacenandolos en un nodo. Dado que los $n$ segmentos son dividos a la mitad mediante instrucciones que nos costarán $O(\log)$ por cada segmentos nos toma $O(n \log n)$ construir el Interval tree.
 
+Para encontrar al primer segmento en $S$ por el que pasa el rayo vertical con origen en $p=(x,y)$ y dirección hacia arriba: comparar el punto medio $x_mid$ del intervalo del nodo raíz, si es mayor buscar en el subintervalo derecho, si es menor buscar en el subintervalo izquierdo hasta llegar al último nodo (lo que nos tomara $O(\log n)$). En este punto tomar los extremos del último intervalo $[x,x']$ y consultar a que segmentos corresponden en $S$ donde pueden iniciar o terminar en $x$ o $x'$ (lo que nos tomara $O(n)$) dada esta lista consultar el punto donde se intersecta el rayo de origen en $p$ (lo que en el peor de los casos nos tomara $O(n)$ pero en realidad es $k$ el número de lineas que intersectan el rayo) guardando la menor porque nos indica la primera intersección del rayo con un segemento (será el punto donde $x$ será menor).En total la complejidad del algoritmo es $O(\log n)+O(k)+O(n) \rightarrow O(n+k)$, donde $k$ el número de lineas que intersectan el rayo
 \bigskip
