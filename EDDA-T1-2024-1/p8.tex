@@ -9,6 +9,38 @@ En este caso nos gustaría evitar el término $O(k)$ en el tiempo de consulta.
 \end{enumerate}
 
 \subsection*{Respuesta}
-<Tu respuesta aquí>
 
+\begin{enumerate}
+  \item Describe cómo un árbol de rangos de una dimensión puede adaptarse para que una consulta así se pueda realizar en tiempo $O(\log n)$.
+  
+  Dado un rango $[x,x']$ buscar en el árbol de rangos el punto $x$ y el punto $x'$. Luego buscar el nodo divisor $v_{split}$ utilizando el algoritmo presentado en el ejercicio 3.
+  Por cada nodo en el camino de $x$ revisar si el punto almacenado en la nodo debe ser reportado (se encuentra en el intervalo). De manera similar sigue del camino a $x'$, reporta los puntos en los subarboles a la izquierda de del camino, y revisa si el punto almacenado en la hoja donde el camino termina debe ser reportado.
+
+  Como el árbol de rangos se encuentra balanceado los caminos que recorre hasta las hojas tienen longitud $O(\log n)$, luego reportar (y contar) todos los nodos toma $O(n)$, por tanto la complejidad final del algoritmo es $O(\log n)+O(n) \rightarrow O(\log n)$
+  
+  \item Usando la solución al problema para una dimensión, describe cómo se pueden responder consultas de conteo en rangos de $d$ dimensiones en tiempo $O(\log^d n)$.
+  Se repite la estrategia anterior sobre las estructuras auxiliares. 
+
+  Sea $range = [x:x']\times [y: y'] \times [z:z'] \times \dots$ el rango que nos interesa consultar. Sea un árbol de rango $T$, con $d$ dimensiones, este tendrá nodos que almacenan listas con $(a_1,a_2,\dots,a_d)$, de manera que obtener todos puntos que cumplan la condicion $a_i \in range$ (por ejemplo $a_i \in [x:x']$) nos tomara $O(\log n)$ utilizando el algoritmo anterior, y si deseamos obtener los puntos $a_{i+2}$ que cumplen estar en el rango siguiente, es necesario revisar su estructura asociada cuya longitud es $O(\log n)$ utiliza el algoritmo de $6.a$ de manera que para $d=2$ se debe ejecutar dos veces el algoritmo por tanto su complejidad es $O(\log n * \log n)= O(\log^2)$ (Si solo se cuentan los puntos en el rango). Siguiendo de esta manera para $d=3$ se debe ejecutar tres veces el algoritmo por tanto su complejidad es $O(\log n * \log n * \log n)= O(\log^3)$. Y podemos concluir que para $d$ dimensiones se debe ejecutar el algoritmo $d$ veces el algoritmo y su complejidad es $O(\log ^d n)$
+
+  \item Describe cómo se puede usar la técnica de cascada para mejorar el tiempo de consulta en un factor $O(\log n)$ para dos y más dimensiones.
+  
+  De manera similar al indice anterior seleccionar primero los puntos cuya cuya coordenada $d-$ésima está en el rango correcto en subconjuntos canónicos $O(log n)$, y luego resolviendo una consulta $(d-1)$-dimensional en estos subconjuntos. 
+\end{enumerate}
+
+\section*{Pregunta 9} Describe el proceso de dinamizar el árbol de rangos de dimensión 3.
+
+La técnica consiste en crear bosques de árboles utilizando bits que nos indicara el tamaño del árbol:
+$$2^0  = 1$$ 
+$$2^1  = 2 $$
+$$2^2  = 4 $$
+$$2^3  = 8$$
+$$2^4  = 16$$
+$$2^5  = 32 $$
+$$2^6  = 64 $$
+$$2^7  = 128 $$
+$$2^8  = 256 $$
+$$2^9  = 512$$
+$$2^{10} = 1024 $$
+Y las consultas se realizaran sobre cada una de ellas.
 \bigskip
